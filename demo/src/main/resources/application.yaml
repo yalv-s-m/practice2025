@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: pw
+  jooq:
+    sql-dialect: POSTGRES
+
+server:
+  port: 8080
